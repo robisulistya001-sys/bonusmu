@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Micro Task Indonesia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h2>💰 MICRO TASK</h2>
+
+  <div id="login">
+    <input id="username" placeholder="Username">
+    <button onclick="login()">Masuk</button>
+  </div>
+
+  <div id="dashboard" class="hidden">
+    <div class="header">
+      <span>👤 <b id="user"></b></span>
+      <span>💰 Koin: <b id="coin">0</b></span>
+    </div>
+
+    <h3>📋 Daftar Tugas</h3>
+
+    <div class="task">
+      Follow Instagram
+      <button onclick="claim(10)">Selesai +10</button>
+    </div>
+
+    <div class="task">
+      Subscribe YouTube
+      <button onclick="claim(15)">Selesai +15</button>
+    </div>
+
+    <div class="task">
+      Isi Survey
+      <button onclick="claim(20)">Selesai +20</button>
+    </div>
+
+    <button class="logout" onclick="logout()">Keluar</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
