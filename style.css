@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #eef2ff;
+}
+
+.container {
+  max-width: 400px;
+  background: #fff;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.task {
+  background: #f5f7ff;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.logout {
+  margin-top: 15px;
+  background: #ffdddd;
+}
